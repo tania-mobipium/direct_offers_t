@@ -12,16 +12,31 @@ body {
 
 /**Buttons**/
 
+/**Find Out Button**/
+.find-out {
+  border-radius: 6px;
+  background-color: #1c78f5;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.004);
+  width: 87px;
+  height: 24px;
+  z-index: 63;
+  position:absolute;
+  left: 653px;
+  top: 251px;
+  color: white;
+}
+
 /**More Button**/
 .more {
   border-radius: 6px;
   background-color: rgb(30, 30, 30);
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.004);
-  left: 282px;
-  top: 582px;
   width: 65px;
   height: 24px;
   z-index: 63;
+  position:absolute;
+  left: 300px;
+  top: 805px;
 }
 
 /**Lupa Button**/

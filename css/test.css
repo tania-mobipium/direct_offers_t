@@ -1,3 +1,97 @@
 body {
 	font-family: 'Roboto';
 }
+
+
+.am {
+	background: url('C:/Users/Mobipium-taniafrade/Desktop/Portal das Ofertas Directas/test/img/am.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+/**Buttons**/
+
+/**More Button**/
+.more {
+  border-radius: 6px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.004);
+  left: 282px;
+  top: 582px;
+  width: 65px;
+  height: 24px;
+  z-index: 63;
+}
+
+/**Lupa Button**/
+.lupa {
+  border-radius: 50%;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.004);
+  left: 300px;
+  top: 805px;
+  width: 47px;
+  height: 47px;
+  z-index: 36;
+}
+
+/**Button Top**/
+.top {
+  border-radius: 6px;
+  background-color: rgb(245, 28, 63);
+  box-shadow: 0px 3px 0px 0px rgba(230, 24, 58, 0.004);
+  left: 146px;
+  top: 870px;
+  width: 80px;
+  height: 28px;
+  z-index: 21;
+}
+
+/**Button back and Home**/
+.back-home {
+  border-radius: 6px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.004);
+  left: 27px;
+  top: 870px;
+  width: 80px;
+  height: 28px;
+  z-index: 16;
+}
+
+/**Test Button**/
+.test {
+  border-radius: 6px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.004);
+  left: 27px;
+  top: 870px;
+  width: 80px;
+  height: 28px;
+  z-index: 16;
+}
+
+/**Cancel Button**/
+.cancel {
+  border-radius: 6px;
+  background-color: rgb(254, 84, 84);
+  box-shadow: 0px 2px 0px 0px rgba(217, 51, 51, 0.004);
+  left: 43px;
+  top: 218px;
+  width: 286px;
+  height: 51px;
+  z-index: 696;
+}
+
+/**Subscription Button**/
+.subscribe {
+  border-radius: 6px;
+  background-color: rgb(144, 248, 59);
+  box-shadow: 0px 2px 0px 0px rgba(117, 217, 51, 0.004);
+  left: 43px;
+  top: 198px;
+  width: 286px;
+  height: 51px;
+  z-index: 794;
+}

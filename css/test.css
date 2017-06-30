@@ -1,13 +1,31 @@
 body {
 	font-family: 'Roboto';
+	background: black;
 }
 
+.tag {
+	color: white;
+	background: #f51c3f;
+}
 
-.am {
-	background: url('C:/Users/Mobipium-taniafrade/Desktop/Portal das Ofertas Directas/test/img/am.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
+/**Banners**/
 
+.s-lover {
+	background-image: url(../img/img1.jpg);
+	width: auto;
+	height: 167px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.themo-lover {
+	background-image: url(../img/img2.jpg);
+	width: auto;
+	height: 97px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /**Buttons**/
@@ -46,9 +64,10 @@ body {
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.004);
   left: 300px;
   top: 805px;
-  width: 47px;
-  height: 47px;
+  width: 27px;
+  height: 27px;
   z-index: 36;
+ float: right;
 }
 
 /**Button Top**/
@@ -58,9 +77,10 @@ body {
   box-shadow: 0px 3px 0px 0px rgba(230, 24, 58, 0.004);
   left: 146px;
   top: 870px;
-  width: 80px;
+  width: 54px;
   height: 28px;
   z-index: 21;
+  color: white;
 }
 
 /**Button back and Home**/
@@ -70,9 +90,10 @@ body {
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.004);
   left: 27px;
   top: 870px;
-  width: 80px;
+  width: 54px;
   height: 28px;
   z-index: 16;
+  color: white;
 }
 
 /**Test Button**/
@@ -110,3 +131,44 @@ body {
   height: 51px;
   z-index: 794;
 }
+
+/**Game Container**/
+
+.game-section {
+	background: white;
+}
+
+.game-container {
+	margin-top:5px;
+}
+
+.game-text {
+	background: #fff9e2;
+	text-align: center;
+    color: black;
+    padding: 10px;
+    line-height: 1em;
+}
+
+/**Fixed Footer**/
+
+.search-container {
+	background: #e8fdff;
+	padding: 5px 17px 5px;
+}
+
+.search-container input {
+	border:1px solid #ddd;
+	vertical-align: -webkit-baseline-middle;
+	padding-left: 5px;
+}
+
+.footer {
+	background-image: url(../img/footer.jpg);
+	width:100%;
+	height: 60px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

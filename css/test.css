@@ -30,6 +30,7 @@ body {
 	padding: 5px 15px;
 	display: inline-block;
 	width: 100%;
+	font-size: 11px;
 }
 
 .slick-prev:before {
@@ -41,6 +42,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	left: 7px;
+	z-index:99;
 }
 
 .slick-next:before {
@@ -54,10 +57,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: none;
+	right: 7px;
+	top:35px;
+	z-index:99;
 }
 
-.slick-next:hover {
-	opacity: 1;
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+	background-image: url(../img/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /**Banners**/
@@ -204,7 +213,7 @@ body {
     width: 100%;
     line-height: 1em;
     font-weight: 600;
-    font-size: 9px; 
+    font-size: 10px; 
 }
 
 /**Game Container**/

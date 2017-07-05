@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Smartphone Template</title>
+	<title>Horoscope</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../test/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="../test/css/slick-theme.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../test/css/smartphone_template.css">
+	<link rel="stylesheet" type="text/css" href="../test/css/horoscope.css">
+
 <body>
 
 <div class="container" style="width: 320px;">
@@ -16,67 +17,89 @@
 	<div class="row">
 		<div class="tag-logo">	
 			<div class="col-xs-12 nav-logo">
-				<img style="width: 80px;" src="../test/img/logo_bigger.png"><!--Logo can be changed-->
+				<img style="width: 80px;" src="../test/img/logo_bigger.png">
 				<img src="../test/img/avatar.png" class="nav-avatar">
 			</div>
 		</div>
 	</div>
 
-	<!--
-	<div class="col-xs-12 nav-logo">
-		<img style="width: 80px;" src="../test/img/logo_bigger.png">
-	</div>
-	-->
-
 	<!--MYASTRO SLIDER-->
 	<div class="row">
 		<div id="offerSlider">
-			<div style="background-color: red; height: 100px;">
-				<p style="color: white;">One banner goes here. If you click me, I will take you to another page.</p>
+			<div>
+				<img src="../test/img/320x50_A_games_v8_en.gif" class="s-lover" alt="img">
 			</div>
-			<div style="background-color: blue; height: 100px;">
-				<p style="color: white;">Another banner goes here. If you click me, I will take you to another page</p>
+			<div>
+				<img src="../test/img/320x50_en_games_21.gif" class="s-lover" alt="img">
 			</div>
-			<div style="background: green; height: 100px;">
-				<p style="color:white;">Another banner goes here. If you click me, I will take you to another page</p>
+			<div>
+				<img src="../test/img/320x50_en_games_24.gif" class="s-lover" alt="img">
 			</div>
 		</div>
 	</div><!--END SLIDER ROW-->
 		
-	<div class="row">
-		<div style="position: relative;">
-			<div style="background-color: pink; height: 261px;">
-				<!--BANNER GOES HERE-->
-				<div class="col-xs-6">
-					<p style="top:203px; left:41px;" class="tbanner">Text for banner goes here.</p>
-				</div>
-				<div class="col-xs-6">
-					<button style="right: 38px; top: 205px;" class="find-out">Button >> </button>
-				</div>
+	<!--YOUR DAILY HOROSCOPE-->
+	<div class="row" style="margin-top:-20px;">
+		<div class="horoscope-tag">Your Daily Horoscope</div>
+		<div class="horoscope-background">
+
+			<!--FIRST LINE HOROSCOPE-->
+			<div class="col-xs-3">
+				<img src="../test/img/004-aries.svg" style="width: 100%;">
+				<p>Aries</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/010-taurus.svg" style="width: 100%;">
+				<p>Taurus</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/gemini.svg" style="width: 100%;">
+				<p>Gemini</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/009-cancer.svg" style="width: 100%;">
+				<p>Cancer</p>
 			</div>
 
-		<!--Themo Lover-->
-		<div class="row">
-			<div class="col-xs-12">
-				<p class="tag" style="margin:0; margin-top: -2px;">Themo Lover<img style="padding-left: 4px;" src="../test/img/HEARTS.png"></p>
+			<!--SECOND LINE HOROSCOPE-->
+			<div class="col-xs-3">
+				<img src="../test/img/007-leo.svg" style="width: 100%;">
+				<p>Leo</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/008-virgo.svg" style="width: 100%;">
+				<p>Virgo</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/011-libra.svg" style="width: 100%;">
+				<p>Libra</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/002-scorpio.svg" style="width: 100%;">
+				<p>Scorpio</p>
+			</div>
+
+			<!--THIRD LINE HOROSCOPE-->
+			<div class="col-xs-3">
+				<img src="../test/img/003-sagittarius.svg" style="width: 100%;">
+				<p>Sagittarius</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/001-capricorn.svg" style="width: 100%;">
+				<p>Capricorn</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/006-aquarius.svg" style="width: 100%;">
+				<p>Aquarius</p>
+			</div>
+			<div class="col-xs-3">
+				<img src="../test/img/005-pisces.svg" style="width: 100%;">
+				<p>Pisces</p>
 			</div>
 		</div>
 
-		<!--Themo image-->
 		<div class="row">
-			<div style="position: relative;">
-				<div class="col-xs-12">
-					<div style="background-color: pink; height: 152px;"><!--BANNER GOES HERE-->
-				</div>
-				<div class="col-xs-6" style="float: right;">
-					<div class="col-xs-12">
-						<p style="top: -90px; right: 15px;" class="tbanner">Check how hot is your love</p>
-					</div>
-					<div class="col-xs-12">
-						<button style="right: 53px; top: -50px;" class="find-out">Find out >> </button>
-					</div>
-				</div>
-			</div>	
+			<button class="more-signs">Menos Signos - </button>
 		</div>
 
 		<!--More section-->
@@ -98,12 +121,10 @@
 						<img src="../test/img/img3.jpg" style="width: 100%;">
 						<p class="game-text">Your Daily Horoscope</p>
 					</div>
-					<!--
 					<div class="col-xs-6 game-container">
 						<img src="../test/img/img3.jpg" style="width: 100%;">
 						<p class="game-text">Your Daily Horoscope</p>
 					</div>
-					-->
 				</div>	
 			</div>
 		</div>
@@ -119,7 +140,7 @@
 				</div>
 			</div>
 		</div>
-	</div><!--cenas-->
+	</div>
 
 	<!--Bottom Buttons-->
 	<div class="row" style="background: white; padding:5px 0;">

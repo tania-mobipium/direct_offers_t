@@ -46,12 +46,14 @@ body {
 }
 
 .slick-prev {
-	background-image: url(../img/arrow.png);
+	background-image: url(../img/arrow3.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	left: 7px;
 	z-index:99;
+  top: 13px;
+  transform: rotate(180deg);
 }
 
 .slick-next:before {
@@ -59,19 +61,17 @@ body {
 }
 
 .slick-next {
-	background-image: url(../img/arrow.png);
-	transform: rotate(180deg);
+	background-image: url(../img/arrow3.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: none;
 	right: 7px;
-	top:35px;
 	z-index:99;
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-	background-image: url(../img/arrow.png);
+	background-image: url(../img/arrow3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,6 +118,20 @@ body {
   position:absolute;
   color: white;
   font-size: 9px
+}
+
+.pfind-out {
+  border-radius: 4px;
+  border-color: rgba(254, 76, 104, 0.53);
+  background-color: #e83c84;
+  box-shadow: 0px 2px 0px 0px #d62b72;
+  height: 21px;
+  width: 91px;
+  z-index: 63;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /**More Button**/

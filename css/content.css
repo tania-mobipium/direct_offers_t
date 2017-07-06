@@ -100,16 +100,17 @@ body {
 
 .category-tag {
   display: block;
-  margin:0 auto;
-  color:white;
+  margin: 0 auto;
+  color: white;
   background-color: #f51c3f;
-  padding:8px;
-  width: 180px;
-  z-index:99;
+  padding: 8px;
+  width: 130px;
+  z-index: 99;
   text-align: center;
   position: relative;
   transform: translateY(50%);
   box-shadow: 1px 1px 9px 0px #777;
+  font-size: 11px;
 }
 
 .category-background {

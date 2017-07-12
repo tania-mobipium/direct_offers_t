@@ -19,15 +19,15 @@
 
 
 	<!--NUMEROLOGIA-->
-	<div class="numerologia">
-		<div class="info-container">
+	<div id="numerologiaContainer" class="numerologia">
+		<div id="numerologiaTitleContainer" class="info-container">
 			<div class="info-title">Numerologia</div>
 			<div class="info-subtitle">Qual é a tua</br> data de nascimento?</div>
 		</div>
-		<div class="date-container">
+		<div id="selectContainer" class="date-container">
 			<div class="col-xs-3">
 				<p>Dia</p>
-				<select class="selectpicker">
+				<select id="daySelect" class="selectpicker"><!--dynamic selectbox here-->
 				  <option>1</option>
 				  <option>15</option>
 				  <option>30</option>
@@ -36,7 +36,7 @@
 			</div>
 			<div class="col-xs-3">
 				<p>Mês</p>
-				<select class="selectpicker">
+				<select id="monthSelect" class="selectpicker"><!--dynamic selectbox here-->
 				  <option>1</option>
 				  <option>7</option>
 				  <option>12</option>
@@ -44,17 +44,19 @@
 			</div>
 			<div class="col-xs-6">
 				<p>Ano</p>
-				<select class="selectpicker">
+				<select id="yearSelect" class="selectpicker"><!--dynamic selectbox here-->
 				  <option>1980</option>
 				  <option>1990</option>
 				  <option>2000</option>
 				</select>
 			</div>
 		</div>
-		<div class="col-xs-12" style="margin-top: 30px;">
-			<button class="continue">Continuar</button><!--THE BUTTON REDIRECTS TO THE PAGE RESULT-->
+		<div id="numerologiaButtonContainer" class="col-xs-12" style="margin-top: 30px;">
+			<button id="numerologiaButton" class="continue">Continuar</button><!--THE BUTTON REDIRECTS TO THE PAGE RESULT-->
 		</div>
 	</div>
+
+	<!--JAVASCRIPT LINKS-->
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
  crossorigin="anonymous"></script>
